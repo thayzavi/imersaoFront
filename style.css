@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(220, 214, 248);
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+   text-align: center;
+   padding: 10px;
+}
+.perfil {
+    border-radius: 80%;
+    width: 20rem;
+    outline-color: #ffff;
+    outline: 10rem;
+}
+a {
+    border-radius: 10px;
+    border: none;
+    background-color: #ffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    
+}
+.btn-contato{
+    padding: 2rem;
+    background-color: rgb(231, 170, 247);
+}
+.formacao{
+    background-color: rgb(231, 170, 247);
+    padding: 1rem;
+}
+ul{
+    list-style: none;
+    display: flexbox ;
+
+}
+.btn-projeto{
+    padding: 2rem;
+    background-color: rgb(231, 170, 247);
+    
+}
