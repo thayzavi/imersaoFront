@@ -57,3 +57,10 @@ ul{
     font-size: 19px;
     border-radius: 10px;
 }
+
+@media print{
+    #bnt-print{
+        display: none;
+        visibility: hidden;
+    }
+}
