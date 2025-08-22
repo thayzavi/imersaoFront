@@ -1,7 +1,13 @@
 body{
-    background-color: rgb(220, 214, 248);
+    background-color: #f1f8d6;
      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.header img{
+   padding: 8px;
+   outline: 6px solid #1f700e;
+}
+
 .container{
    text-align: center;
    padding: 10px;
@@ -15,26 +21,39 @@ body{
 a {
     border-radius: 10px;
     border: none;
-    background-color: #ffff;
+    background-color: #1f700e;
+    color: #fff;
     text-decoration: none;
     padding: 10px 20px;
     
 }
 .btn-contato{
     padding: 2rem;
-    background-color: rgb(231, 170, 247);
 }
 .formacao{
-    background-color: rgb(231, 170, 247);
     padding: 1rem;
+    display:flex;
+    flex-direction: column; 
 }
 ul{
-    list-style: none;
-    display: flexbox ;
 
 }
 .btn-projeto{
     padding: 2rem;
-    background-color: rgb(231, 170, 247);
-    
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+#bnt-print {
+    background-color: #1f700e;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 19px;
+    border-radius: 10px;
 }
